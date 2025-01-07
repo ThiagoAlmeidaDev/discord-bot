@@ -1,6 +1,6 @@
 <h1 align="center">
    <br>
-      <a href="https://github.com/ThiagoAlmeidaDev"><img src="./assets/discord_logo.png" height="200" alt="Discord.js v14 Bot"></a>
+      <a href="https://github.com/ThiagoAlmeidaDev"><img src="./assets/logo/discord_logo.png" height="200" alt="Discord.js v14 Bot"></a>
    <br>
       Discord.js v14 Bot
    <br>
@@ -10,7 +10,7 @@
 
 <br>
    <p align="center">
-      <a href="#requisitos">Pré-requisitos</a> • <a href="#instalando">Instalando</a> • <a href="#links">Links</a>
+      <a href="#pré-requisitos">Pré-requisitos</a> • <a href="#instalação">Instalando</a> • <a href="#links">Links</a>
    </p>
 <br>
 
@@ -36,9 +36,6 @@ Use o link abaixo, substituindo ### pelo **ID do bot**:
 https://discordapp.com/oauth2/authorize?&client_id=###&scope=bot&permissions=8
 ```
 
-> [!IMPORTANT]  
-> Configure corretamente as variáveis de ambiente no arquivo `.env` para evitar problemas na execução.
-
 ### Clonando o projeto e instalando dependências
 
 1. Abra o terminal e execute os seguintes comandos:
@@ -48,7 +45,10 @@ https://discordapp.com/oauth2/authorize?&client_id=###&scope=bot&permissions=8
    npm install  
 ```
 
-2. Configure as variáveis de ambiente:
+> [!IMPORTANT]  
+> Configure corretamente as variáveis de ambiente no arquivo `.env` para evitar problemas na execução.
+
+2. Como configurar os arquivos .env:
    - Renomeie o arquivo .env.example para .env.production e preencha os campos necessários com as informações do bot oficial.
    - (Opcional) Para um ambiente de testes, crie um arquivo .env.development com as credenciais do bot de teste.
 
