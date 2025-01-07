@@ -1,0 +1,40 @@
+{
+  "name": "discord",
+  "version": "1.0.0",
+  "description": "Bot para o discord.",
+  "main": "src/index.js",
+  "scripts": {
+    "start:prod": "node index.js production",
+    "watch:prod": "nodemon index.js production",
+    "start:dev": "node index.js development",
+    "watch:dev": "nodemon index.js development"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "ThiagoAlmeidaDev",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "chalk": "^4.1.0",
+    "discord.js": "^14.17.2",
+    "dotenv": "^16.4.5",
+    "module-alias": "^2.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@src": "src/",
+    "@commands": "src/commands/",
+    "@listeners": "src/listeners/",
+    "@config": "src/config/",
+    "@handlers": "src/handlers/",
+    "@interactions": "src/interactions/",
+    "@utils": "src/utils/",
+    "@init": "src/init/",
+    "@assets": "assets/"
+  }
+}
